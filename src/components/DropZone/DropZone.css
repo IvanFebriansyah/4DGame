@@ -1,0 +1,21 @@
+.drop-zone {
+height: calc(var(--size) * 1.5);
+position: relative;
+}
+.drop-zone div {
+width: var(--size);
+height: var(--size);
+border-radius: 50%;
+display: inline-block;
+position: absolute;
+transition: all ease-in-out 500ms;
+}
+.drop-zone .not-dropped {
+transition: margin-left ease-in-out 500ms;
+}
+.drop-zone .p1 {
+background-color: var(--p1);
+}
+.drop-zone .p2 {
+background-color: var(--p2);
+}
